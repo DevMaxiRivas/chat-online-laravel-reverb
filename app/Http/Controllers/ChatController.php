@@ -59,4 +59,9 @@ class ChatController extends Controller
 
         return view('chat.index', compact('messages', 'room'));
     }
+
+    public function turnero()
+    {
+        return view('turnero');
+    }
 }

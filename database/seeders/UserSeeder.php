@@ -15,7 +15,7 @@ class UserSeeder extends Seeder
             [
                 "id" => 1,
                 "name" => "Ariful Islam",
-                "email" => "arif@gmail.com",
+                "email" => "user@gmail.com",
                 'password'=> Hash::make(12345678),
                 "email_verified_at" => null,
                 "created_at" => Carbon::parse('2025-02-12T09:20:22.000000Z'),
@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
             [
                 "id" => 2,
                 "name" => "Tarif Hossain",
-                "email" => "tarif@gmail.com",
+                "email" => "user1@gmail.com",
                 'password'=> Hash::make(12345678),
                 "email_verified_at" => null,
                 "created_at" => Carbon::parse('2025-02-12T10:01:45.000000Z'),
@@ -33,7 +33,7 @@ class UserSeeder extends Seeder
             [
                 "id" => 3,
                 "name" => "Parvej Hossain",
-                "email" => "parvej@gmail.com",
+                "email" => "user2@gmail.com",
                 'password'=> Hash::make(12345678),
                 "email_verified_at" => null,
                 "created_at" => Carbon::parse('2025-02-12T10:07:15.000000Z'),

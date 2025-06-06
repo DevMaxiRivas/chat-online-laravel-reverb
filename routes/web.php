@@ -22,6 +22,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/chat', [ChatController::class, 'index'])->name('chat.index');
     Route::get('/chat/{room}', [ChatController::class, 'room'])->name('chat.room');
     Route::post('/chat/messages', [ChatController::class, 'store'])->name('chat.store');
+
+    Route::get('/turnero', [ChatController::class, 'turnero'])->name('chat.rooms');
 });
 
 Route::get('/test-broadcast', function () {

@@ -1,11 +1,4 @@
 // import './bootstrap';
-
-// import Alpine from 'alpinejs';
-
-// window.Alpine = Alpine;
-
-// Alpine.start();
-import './bootstrap';
 import Echo from 'laravel-echo';
 import Pusher from 'pusher-js';
 
@@ -26,9 +19,7 @@ window.Echo = new Echo({
     },
 });
 
-console.log('Autorizacion:', {
-    Authorization: `Bearer ${document.querySelector('meta[name="csrf-token"]').getAttribute('content')}`,
-});
+
 
 // Debug: Mostrar información de conexión
 window.Echo.connector.pusher.connection.bind('connected', function() {
